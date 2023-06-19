@@ -1,6 +1,19 @@
 # lit-review
 Deliverable 1: overview of learnings from earlier ESSNET (TSS1) projects, literature
 
+# Using diff for word files
+Interested parties can version and diff word files using the .gitattributes document in this repository. Other steps necessary if you want to do this:
+    1. [Download and install Pandoc](https://pandoc.org/installing.html)
+    2. Edit .gitconfig file (on Windows C:\Users\<User>\.gitconfig, on linux/Mac ~/.gitconfig) to contain the following text:
+
+```
+[diff "pandoc"]
+     textconv=pandoc --to=markdown
+     prompt = false
+[alias]
+     wdiff = diff --word-diff=color --unified=1
+```
+
 ## License
 Shield: [![CC BY 4.0][cc-by-shield]][cc-by]
 
