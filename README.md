@@ -1,8 +1,11 @@
 # lit-review
 Deliverable 1: overview of learnings from earlier ESSNET (TSS1) projects, literature
 
+## Reference management for literature review
+For the literature review, the proposal is to use Paperpile as a basis for the reference management. This [Shared Folder](https://paperpile.com/shared/d1M3nP) provides read-only access to the literature. If you would like to be added as a collaborator, please email Danielle McCool. 
+
 ## Contributing
-Please feel free to add any links to literature that you find useful. If there's no good way to do so by uploading or editing a file, you can just drop it into the [M6 Deliverable Project](https://github.com/orgs/SSI-WP2-4/projects/1)
+Please feel free to add anything that you find useful. If there's no good way to do so by uploading or editing a file, you can just drop it into the [M6 Deliverable Project](https://github.com/orgs/SSI-WP2-4/projects/1)
 
 ## Using diff for word files
 Interested parties can version and diff word files using the .gitattributes document in this repository. Other steps necessary if you want to do this:
