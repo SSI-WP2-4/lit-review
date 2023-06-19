@@ -11,7 +11,8 @@ Please feel free to add anything that you find useful. If there's no good way to
 Interested parties can version and diff word files using the .gitattributes document in this repository. Other steps necessary if you want to do this:
 
 1. [Download and install Pandoc](https://pandoc.org/installing.html)
-2. Edit .gitconfig file (on Windows "C:\Users\<User>\.gitconfig", on linux/Mac "~/.gitconfig") to contain the following text:
+2. For Windows: Get [wdiff](https://www.di-mgt.com.au/wdiff-for-windows.html) and drop wdiff and diff in a folder on your PATH
+3. Edit .gitconfig file (on Windows "C:\Users\<User>\.gitconfig", on linux/Mac "~/.gitconfig") to contain the following text:
 
 ```
 [diff "pandoc"]
